@@ -32,7 +32,7 @@ def down():
     button.config(bg=choice(colors),
                             activebackground=choice(colors))
     colr = ["sky blue", "light blue", "light sky blue",
-               "light yellow", "light pink", "blue",
+               "light yellow", "light pink",
                "light green"]
     bgs = choice(colr)
     window["bg"] = bgs
